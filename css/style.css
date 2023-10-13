@@ -1372,6 +1372,9 @@ transition: ease-in-out .15s;
       .overlay-image{
         visibility: visible;
         }
+        .logo-2{
+          width: 6em;
+      }
     }
 
     @media (min-width: 992px) {
