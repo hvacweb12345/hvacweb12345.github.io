@@ -1372,9 +1372,7 @@ transition: ease-in-out .15s;
       .overlay-image{
         visibility: visible;
         }
-        .logo-2{
-          width: 6em;
-      }
+        
     }
 
     @media (min-width: 992px) {
@@ -1382,9 +1380,7 @@ transition: ease-in-out .15s;
         .testimonial-carousel::after {
             width: 300px;
         }
-        .logo-2{
-          width: 6em;
-      }
+     
     }
 
     .testimonial-carousel .owl-nav {
