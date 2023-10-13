@@ -34,6 +34,9 @@
     .logo{
         width: 10.5em;
     }
+    .logo-2{
+      width: 6em;
+  }
     .icon-colour{
         color: #2196F3 ;
     }
@@ -106,8 +109,11 @@
     @media (max-width: 500px) {
 
         .logo{
-            width: 8.2em;
+            width: 7.5em;
         }
+        .logo-2{
+          width: 4.3em;
+      }
       
 
     }
