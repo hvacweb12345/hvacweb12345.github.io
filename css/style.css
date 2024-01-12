@@ -946,12 +946,7 @@ display: none;
     
     }
 
-    .form-img{
-        width: 6em;
-        position: absolute;
-        top: 39%;
-        left: 76%;
-    }
+
 
     .navbar-nav .nav-link {
         position: relative;
@@ -1056,8 +1051,8 @@ display: none;
     .form-img{
         width: 6em;
         position: absolute;
-        top: 43%;
-        left: 75%;
+        top: 46%;
+        left: 72%;
     }
 
     .navbar-nav .nav-link {
@@ -1204,6 +1199,8 @@ display: none;
       
     
     }
+  
+
     .text-container h1{
         font-size: 3em;
     }
@@ -1245,13 +1242,11 @@ display: none;
 
     
     }
-
     .form-img{
-        width: 5em;
-        position: absolute;
-        top: 40%;
-        left: 77%;
-    }
+        display: none;
+            }
+
+
 
     .navbar-nav .nav-link {
         position: relative;
@@ -1516,3 +1511,10 @@ display: none;
     overflow: hidden;
 }
 
+@media only screen and (max-width: 416px) {
+
+    .form-img{
+display: none;
+    }
+
+}
