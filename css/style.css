@@ -732,7 +732,7 @@ color: #e6e6e6;
 
     .form-header {
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
         margin: 0 auto 20px; /* Adjust margin for top, bottom, and left/right as needed */
         color: #0268CA; /* Adjust text color if needed */
         width: 100%; /* Make the form header fill the entire width */
@@ -831,7 +831,7 @@ width: 58.8%;
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 481px) {
     .carousel-item {
-        height: 100vh;
+        height: 105vh;
         width: 100%;
     }
     .carousel-img{
@@ -905,10 +905,10 @@ display: none;
     }
 
     .form-img{
-        width: 0.0000000000000000001em;
+        width: 6em;
         position: absolute;
-        top: 37%;
-        left: 80%;
+        top: 39%;
+        left: 76%;
     }
 
     .navbar-nav .nav-link {
@@ -1014,7 +1014,7 @@ display: none;
     .form-img{
         width: 6em;
         position: absolute;
-        top: 46%;
+        top: 43%;
         left: 75%;
     }
 
@@ -1473,3 +1473,4 @@ display: none;
 .overflow-hidden {
     overflow: hidden;
 }
+
