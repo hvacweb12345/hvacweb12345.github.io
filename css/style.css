@@ -837,7 +837,7 @@ display: none;
 
 
 }
-/* Media Query for Mobile View Only */
+/* M
 @media only screen and (max-width: 420px) {
 .button-text{
     margin-left: .9em;
@@ -863,13 +863,13 @@ display: none;
 
     .quote-form {
         width: 90%;
-        max-width: 600px; /* Adjust the maximum width as needed */
+        max-width: 600px; 
         margin: auto;
         padding: 20px;
         background-color: #ffffff94;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        order: 2; /* Set the order to 2 to move the form below the text */
+        order: 2; 
      margin-top: 31em;
         height: 45%;
     }
@@ -883,8 +883,8 @@ display: none;
 
     .carousel-description {
         font-size: 16px;
-        color: #fff; /* Adjust text color if needed */
-        margin-top: 0px; /* Adjust top margin as needed */
+        color: #fff; 
+        margin-top: 0px; 
       
     
     }
@@ -956,7 +956,7 @@ display: none;
     
 
 
-}
+}*/
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 361px) {
     .carousel-item {
