@@ -6,6 +6,16 @@
     --dark: #040F28;
 }
 /*** Project Portfolio ***/
+#portfolio-flters li {
+    display: inline-block;
+    font-weight: 500;
+    color: var(--dark);
+    cursor: pointer;
+    transition: .5s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  #portfolio-flters li:hover,
 
   .portfolio-item img{
     width: 20em;
@@ -1035,7 +1045,7 @@ display: none;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         order: 2; /* Set the order to 2 to move the form below the text */
-     margin-top: 24em;
+     margin-top: 25em;
      height: 48%;
 
     }
@@ -1127,9 +1137,9 @@ display: none;
 
 }
 /* Media Query for Mobile View Only */
-@media only screen and (max-width: 342px) {
+@media only screen and (max-width: 322px) {
     .carousel-item {
-        height: 100vh;
+        height: 150vh;
         width: 100%;
     }
     .carousel-img{
