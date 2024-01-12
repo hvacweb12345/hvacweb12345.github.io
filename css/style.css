@@ -1127,9 +1127,9 @@ display: none;
 
 }
 /* Media Query for Mobile View Only */
-@media only screen and (max-width: 322px) {
+@media only screen and (max-width: 342px) {
     .carousel-item {
-        height: 150vh;
+        height: 200vh;
         width: 100%;
     }
     .carousel-img{
