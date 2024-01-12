@@ -359,10 +359,7 @@ color: #fff;
 }
 .navbar-brand:hover{
     color: #0268CA;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 1.5em;
-    font-family: 'Work Sans', sans-serif;
+  
 }
 
 .logo{
