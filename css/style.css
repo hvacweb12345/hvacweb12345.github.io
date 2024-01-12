@@ -837,7 +837,7 @@ display: none;
 
 
 }
-/* M
+
 @media only screen and (max-width: 420px) {
 .button-text{
     margin-left: .9em;
@@ -956,7 +956,7 @@ display: none;
     
 
 
-}*/
+}
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 361px) {
     .carousel-item {
