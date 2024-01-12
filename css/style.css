@@ -933,9 +933,9 @@ display: none;
 
 }
 /* Media Query for Mobile View Only */
-@media only screen and (max-width: 395px) {
-    .carousel-item {
-        height: 120vh;
+@media only screen and (max-width: 420px) {
+   .carousel-item {
+        height: 125vh;
         width: 100%;
     }
     .carousel-img{
@@ -946,7 +946,7 @@ display: none;
 
     .text-container {
         position: absolute;
-        top: 23%;
+        top: 25%;
         left: 45%;
         transform: translate(-50%, -50%);   
         width: 100%;
@@ -961,9 +961,8 @@ display: none;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         order: 2; /* Set the order to 2 to move the form below the text */
-     margin-top: 25em;
-     height: 50%;
-
+     margin-top: 31em;
+        height: 45%;
     }
     .carousel-bottom-shape {
     display: none;
@@ -972,16 +971,16 @@ display: none;
     .v-shape {
 display: none;
     }
-    
+
     .carousel-description {
-        font-size: 15px;
+        font-size: 16px;
         color: #fff; /* Adjust text color if needed */
         margin-top: 0px; /* Adjust top margin as needed */
       
     
     }
     .text-container h1{
-        font-size: 2.3em;
+        font-size: 2.5em;
     }
     .logo{
         width: 5em;
@@ -1011,7 +1010,7 @@ display: none;
     .form-img{
         width: 6em;
         position: absolute;
-        top: 40%;
+        top: 45%;
         left: 75%;
     }
 
