@@ -933,7 +933,7 @@ display: none;
 
 }
 /* Media Query for Mobile View Only */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 395px) {
     .carousel-item {
         height: 120vh;
         width: 100%;
