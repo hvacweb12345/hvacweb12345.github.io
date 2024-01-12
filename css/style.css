@@ -328,6 +328,28 @@ color: #fff;
     margin-right: 1em
     
 }
+
+.navbar-brand{font-size: 1.5em;
+    margin-left: .6em;
+    word-break: break-all;
+    align-items: center;
+
+}
+
+.navbar-brand {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.navbar-brand::after {
+    content: '';
+    flex: 100%;
+
+
+}
+
+
 .bg-colour{
     background-color: #f4f4f4;
 }
@@ -699,6 +721,7 @@ color: #e6e6e6;
 
 .quote-form {
     max-width: 900px; /* Adjust the maximum width of the form */
+    width: 18%;
     margin: 20px; /* Center the form on the page */
     padding: 0px; /* Adjust padding as needed */
     background-color: #ffffff83; /* Adjust background color if needed */
