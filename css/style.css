@@ -1010,7 +1010,7 @@ display: none;
     .form-img{
         width: 6em;
         position: absolute;
-        top: 45%;
+        top: 42%;
         left: 75%;
     }
 
@@ -1452,4 +1452,7 @@ display: none;
 .slanted-button:hover .slant-bg {
 display: none;
 }
+}
+.overflow-hidden {
+    overflow: hidden;
 }
