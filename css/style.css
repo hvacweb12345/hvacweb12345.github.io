@@ -935,7 +935,7 @@ display: none;
 /* Media Query for Mobile View Only */
 @media only screen and (max-width: 395px) {
     .carousel-item {
-        height: 105vh;
+        height: 110vh;
         width: 100%;
     }
     .carousel-img{
