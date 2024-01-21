@@ -2272,3 +2272,7 @@ margin-right: 50%;
 .text-colour-body{
   color: #5F656F;
 }
+.text-colour-body:hover{
+  color: #5F656F;
+  cursor: pointer;
+}
