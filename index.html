@@ -419,25 +419,25 @@
     <div class="row gx-5">
         <div class="col-lg-4 mb-5 mt-5 mb-lg-0">
             <div class="mb-2">
-                <h1 class="display-5 text-white text-uppercase mb-2">Contact <span class="icon-colour-gold">Bickel Heating and Cooling Today</h1>
+                <h1 class="display-5 text-white text-uppercase mb-2 ipad-view-about-header">Contact <span class="icon-colour-gold">Bickel Heating and Cooling Today</h1>
             </div>
-            <p class="mb-2 text-white">Bickel Heating and Cooling, is your dedicated partner for all HVAC services. From timely repairs, seamless installations, and routine maintenance to HVAC inspections for realtors, we have your needs covered. Our commitment extends to ensuring not just a comfortable climate but also a healthier living environment through our focus on indoor air quality. For personalized and efficient solutions, reach out to Bickel Heating and Cooling today.</p>
+            <p class="mb-2 text-white ipad-view-about-body">Bickel Heating and Cooling, is your dedicated partner for all HVAC services. From timely repairs, seamless installations, and routine maintenance to HVAC inspections for realtors, we have your needs covered. Our commitment extends to ensuring not just a comfortable climate but also a healthier living environment through our focus on indoor air quality. For personalized and efficient solutions, reach out to Bickel Heating and Cooling today.</p>
         </div>
         <div class="col-lg-8 desktop-contact">
             <div class="text-left p-">
-                <form > 
+                <form action="https://formsubmit.co/hvacwebcraft@gmail.com" method="POST" > 
                     <div class="row g-3">
                         <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                            <input type="text" class="form-control border-0" name="name" placeholder="Your Name" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                            <input type="email" class="form-control border-0" name="email" placeholder="Your Email" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
+                            <input type="tel" class="form-control border-0" name="phone" placeholder="Your Phone Number" style="height: 55px;">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <select class="form-control border-0" style="height: 55px; background-color: #fff;">
+                            <select class="form-control border-0" style="height: 55px; background-color: #fff; "  name="services[]" multiple>
                                 <option value="" disabled selected>Choose a Service</option>
                                 <option value="hvac_installation">HVAC Installation</option>
                                 <option value="hvac_maintenence">HVAC Maintenance</option>
@@ -451,7 +451,7 @@
                         </div>
                       
                         <div class="col-12">
-                            <textarea class="form-control border-0" rows="5" placeholder="Message"></textarea>
+                            <textarea class="form-control border-0" name="message" rows="5" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
                             <button class="btn btn-colour w-100 py-3" type="submit">Submit</button>

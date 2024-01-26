@@ -1827,7 +1827,7 @@ color: linear-gradient(103deg, rgba(255,200,66,1) 12%, rgba(252,92,9,1) 91%);
 /* Additional styling for the overlay image */
 .carousel-image-overlay img {
   max-width: 100%; /* Ensure the image doesn't exceed its container */
-  width: 28em;
+  width: 31em;
   margin-right: 6em;
 }
 .feature-png{
@@ -2276,3 +2276,95 @@ margin-right: 50%;
   color: #5F656F;
   cursor: pointer;
 }
+@media (min-width: 1000px){
+
+.desktop-image {
+  width: 100%;
+  min-height: 550px;
+  min-width: 460px;
+}
+.feature-png{
+  padding-right: 5em;
+  width: 34em;
+}
+.appointment{
+  height: 70vh;
+
+  
+}
+.ipad-view-about-header{
+  font-size: 2em;
+}
+.ipad-view-about-body{
+  font-size: .9em;
+}
+.navbar .navbar-nav .nav-link {
+  margin-right: 20px;
+  padding: 18px 0;
+  color: var(--dark);
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--primary);
+}
+.logo{
+  width: 14em;
+}
+}
+@media (min-width: 1400px){
+
+.desktop-image {
+  width: 100%;
+  min-height: 500px;
+  min-width: 600px;
+}
+.feature-png{
+  padding-right: 5em;
+  width: 37em;
+}
+.appointment{
+  height: 65vh;
+
+  
+}
+.ipad-view-about-header{
+  font-size: 2.5em;
+}
+.ipad-view-about-body{
+  font-size: 1em;
+}
+
+
+}
+
+@media (min-width: 772px){
+
+
+}
+
+@media (min-width: 1200px){
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 20px 0;
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+.desktop-image {
+  width: 100%;
+  min-height: 500px;
+  min-width: 590px;
+}
+}
+
+
