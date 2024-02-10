@@ -1834,10 +1834,10 @@ height: 20em;
   z-index: 0; /* Ensure projects section is below appointment section */
 }
 
-@media (max-width: 992px) {
-  .about-page-img{
-      display: none;
-  }
+
+
+.about-page-img{
+  object-fit: cover; 
 }
 .about-img{
   background-image: url(../img/about.jpg);
