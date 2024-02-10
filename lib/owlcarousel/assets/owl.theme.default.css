@@ -1,6 +1,10 @@
-
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
 /*
- Owl Carousel CSS File
+ * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
   margin-top: 10px;
@@ -32,7 +36,7 @@
   .owl-theme .owl-dots .owl-dot {
     display: inline-block;
     zoom: 1;
-    display: inline; }
+    *display: inline; }
     .owl-theme .owl-dots .owl-dot span {
       width: 10px;
       height: 10px;
