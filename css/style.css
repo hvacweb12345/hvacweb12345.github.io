@@ -171,6 +171,14 @@ font-weight: 500;
       
 
     }
+    @media (max-width: 376px) {
+
+        .logo{
+            width: 9.2em;
+        }
+      
+
+    }
     @media (max-width: 567px) {
 
      .carousel-mobile{
