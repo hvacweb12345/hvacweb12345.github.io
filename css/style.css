@@ -47,6 +47,11 @@
 
 
   }
+  .font-typeh1{
+    font-family: 'Kanit', sans-serif;
+
+
+  }
 
     .quote-form {
       width: 20%;
@@ -1212,12 +1217,12 @@ display: none;
           margin-right: 30px;
           padding: 10px 5px 10px 5px;
           color: #6d6d6dbf;
-          font-size: 26px;
+          font-size: 21px;
           font-weight: 500;
           text-transform: uppercase;
           outline: none;
-          font-family: 'Bebas Neue', sans-serif;
-      }
+          font-family: 'Kanit', sans-serif;
+        }
          .font-typeh{
     font-family: 'Bebas Neue', sans-serif;
           font-size: 20px;
@@ -2507,3 +2512,33 @@ iconify-icon.rate {
 }
 
 
+/* Ensure the dropdown menus are initially hidden */
+.dropdown-menu {
+  display: none;
+}
+
+/* Show the dropdown menu on hover for desktop */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Show the dropdown menu on click for mobile */
+.nav-item.active .dropdown-menu {
+  display: block;
+}
+.dropdown-item{
+  font-family: 'Kanit', sans-serif;
+  ;
+}
+   /* Define the default background color for dropdown items */
+   .dropdown-item {
+    background-color: #fff; /* Default background color */
+    color: #000; /* Text color */
+    /* Add other styles (e.g., padding, border, etc.) as needed */
+  }
+  
+  /* Define the background color when a dropdown item is clicked */
+  .dropdown-item:active {
+    background-color: #C75E15; /* New background color when clicked (green in this example) */
+    /* You can change this color to the desired color */
+  }

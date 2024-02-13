@@ -125,3 +125,15 @@ var swiper = new Swiper(".testimonial-swiper", {
   });
 
 
+// Function to toggle active class on click for mobile
+document.querySelectorAll('.nav-item').forEach(item => {
+    item.addEventListener('click', event => {
+        const isActive = item.classList.contains('active');
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        if (!isActive) {
+            item.classList.add('active');
+        }
+    });
+});
