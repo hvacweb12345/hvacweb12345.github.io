@@ -2517,10 +2517,6 @@ iconify-icon.rate {
   display: none;
 }
 
-/* Show the dropdown menu on hover for desktop */
-.nav-item:hover .dropdown-menu {
-  display: block;
-}
 
 /* Show the dropdown menu on click for mobile */
 .nav-item.active .dropdown-menu {
