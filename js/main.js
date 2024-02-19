@@ -216,10 +216,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Add event listener to close both dropdown submenus when Services button is clicked
-    document.getElementById('servicesDropdown').addEventListener('click', function() {
-        closeDropdownMenus();
-        // Close the Services dropdown itself
-        document.getElementById('servicesDropdown').classList.remove('show');
-    });
+    document.getElementById('servicesDropdown').addEventListener('click', closeDropdownMenus);
 });
 
