@@ -1836,7 +1836,7 @@ color: #C2AA4A;
 
 .carousel-image-overlay {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0;
   transform: translateY(-50%);
   z-index: 1; /* Ensure the overlay is on top of the carousel item content */
@@ -2583,3 +2583,49 @@ iconify-icon.rate {
   }
 
 }
+
+@media (max-width: 1581px){
+
+  .carousel-image-overlay {
+    position: absolute;
+    top: 42%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1; /* Ensure the overlay is on top of the carousel item content */
+  }
+  
+  /* Additional styling for the overlay image */
+  .carousel-image-overlay img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    width: 20em;
+    margin-right: 6em;
+  }
+  .carousel-image-overlay2 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1; /* Ensure the overlay is on top of the carousel item content */
+  }
+  
+  /* Additional styling for the overlay image */
+  .carousel-image-overlay2 img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    width: 22em;
+    margin-right: 6em;
+  }
+   .text-container {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 70%;
+  }
+
+  .text-container h1{
+    font-size: 4.5em;
+}
+  .text-container p{
+    font-size: 1em;
+}
+}
+
