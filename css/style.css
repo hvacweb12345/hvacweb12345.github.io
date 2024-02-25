@@ -2569,16 +2569,13 @@ iconify-icon.rate {
   border-radius: 3.5rem;
   margin-top: 28em;
 }
-.logo{
-  margin-top: .5em;
-  width: 1em;
-}
+
 }
 
 @media (max-width: 399px){
   .logo{
     margin-top: .5em;
-    width: 10em;
+    width: 11em;
   }
   
 
