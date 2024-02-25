@@ -2571,7 +2571,7 @@ iconify-icon.rate {
 
 .text-container {
   position: absolute;
-  top: 10%;
+  top: 101%;
   left: 5%;
   width: 90%;
 }
@@ -2594,7 +2594,28 @@ iconify-icon.rate {
     width: 11em;
   }
   
+  .text-container h1{
+    font-size: 2.60em;
+}
+  .text-container p{
+    font-size: .9em;
+}
 
+.text-container {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  width: 90%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #DE6A12;
+  border: 15px solid #DE6A12;
+  border-radius: 3.5rem;
+  margin-top: 32em;
+}
 }
 @media (max-width: 369px){
   .logo{
