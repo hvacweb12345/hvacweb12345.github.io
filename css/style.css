@@ -2251,10 +2251,11 @@ background: radial-gradient(circle, rgba(235,13,14,1) 0%, rgba(168,2,3,1) 100%);
           }
           
           .chooseus__video img {
-              width: 100%;
+              width: 90%;
+              margin-left: 3%;
+              margin-right: 7%;
               height: 300px;
               object-fit: cover;
-            padding-bottom: 2em;
           }
           
     
@@ -2370,7 +2371,9 @@ iconify-icon.rate {
   height: 154vh;
   
 }
-
+.logo{
+  width: 8em;
+}
 /*** Appointment ***/
 
 }
