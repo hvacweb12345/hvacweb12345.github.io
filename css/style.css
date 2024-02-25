@@ -2339,9 +2339,7 @@ iconify-icon.rate {
 }
 
 @media (min-width: 360px){
-.logo{
-  width: 8.5em;
-}
+
 /*** Appointment ***/
 .appointment {
   background: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)), url(../img/contact-us.jpeg) center center no-repeat;
@@ -2569,13 +2567,16 @@ iconify-icon.rate {
   border-radius: 3.5rem;
   margin-top: 28em;
 }
-
+.logo{
+  margin-top: .5em;
+  width: 1em;
+}
 }
 
 @media (max-width: 399px){
   .logo{
     margin-top: .5em;
-    width: 12em;
+    width: 10em;
   }
   
 
