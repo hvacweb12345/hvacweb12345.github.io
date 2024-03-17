@@ -2720,7 +2720,7 @@ height: 40vh;
 @media (max-width: 414px) {
   .carousel-logo {
     width: 115%; /* Adjust the width for the viewport width of 414px */
-    margin-top: -210px; /* Adjust the top margin as needed */
+    margin-top: -250px; /* Adjust the top margin as needed */
     margin-bottom: 20px;
   }
   .btn-carousel {
@@ -2731,7 +2731,7 @@ height: 40vh;
     color: #fff;
     border: 0px;
     position: absolute;
-  margin-top: 3.75em;
+  margin-top: 4.5em;
 
   }
   .carousel-section{
