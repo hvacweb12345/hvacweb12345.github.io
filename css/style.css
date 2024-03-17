@@ -2731,7 +2731,7 @@ height: 40vh;
     color: #fff;
     border: 0px;
     position: absolute;
-  margin-top: 4.5em;
+  margin-top: 5.5em;
 
   }
   .carousel-section{
@@ -2739,7 +2739,7 @@ height: 40vh;
   }
   .banner-buttons {
     position: absolute;
-    top: 64%;
+    top: 66%;
     left: 0px;
     transform: translateY(-50%);
     z-index: -1000; /* Add z-index to ensure it appears above other elements */
