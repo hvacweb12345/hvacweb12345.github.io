@@ -673,27 +673,17 @@
 
 <!-- Custom Scripts -->
 <script src="js/main.js"></script>
-<!-- Include your JavaScript and other HTML content here -->
 <script>
-    function checkOrientation() {
-      var body = document.body;
-    
-      if (window.innerHeight > window.innerWidth) {
-        body.style.display = 'block'; // Show content in portrait mode
-      } else {
-        body.style.display = 'none';  // Hide content in landscape mode
+    window.addEventListener("orientationchange", function() {
+      if (window.orientation === 0 || window.orientation === 180) {
+        alert("Please switch to landscape mode for the best experience.");
+        // You can also force landscape mode programmatically, but it's not recommended.
+        // However, it might work on some devices:
+        // document.documentElement.requestFullscreen();
+        // screen.orientation.lock("landscape");
       }
-    }
-    
-    // Initial check when the page loads
-    checkOrientation();
-    
-    // Listen for orientation change events
-    window.addEventListener('orientationchange', function() {
-      // Delay the check to ensure the browser has finished resizing
-      setTimeout(checkOrientation, 500);
     });
-    </script>
+  </script>
   
 </body>
 
