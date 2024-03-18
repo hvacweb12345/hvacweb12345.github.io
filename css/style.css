@@ -2746,11 +2746,38 @@ height: 40vh;
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 394px) {
   .carousel-logo {
-    width: 100%; /* Adjust the width for the viewport width of 390px */
-    margin-top: -180px; /* Adjust the top margin as needed */
+    width: 114%; /* Adjust the width for the viewport width of 390px */
+    margin-top: -310px; /* Adjust the top margin as needed */
   }
+      /* Center the list and button */
+      .carousel-points{
+        text-align: center;
+        font-size: 1.09em;
+        width: 300%;
+      }
+      .btn-carousel {
+        margin-top: .5em;
+        padding: 1em 2em;
+        background: rgb(15,117,189);
+        background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+        color: #fff;
+        border: 0px;
+        position: absolute;
+      margin-top: 1.75em;
+    
+      }
+      .carousel-section{
+        margin-bottom: -20em;
+      }
+      .banner-buttons {
+        position: absolute;
+        top: 62%;
+        left: 0px;
+        transform: translateY(-50%);
+        z-index: -1000; /* Add z-index to ensure it appears above other elements */
+      }
 }
 
 @media (max-width: 375px) {
