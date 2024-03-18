@@ -3218,9 +3218,3 @@ display: none;
       height: 210vh;
     }
 }
-@media (min-width: 600px) and (max-width: 1024px) {
-  /* Force landscape orientation */
-   body {
-    overflow: hidden;
-  }
-}
