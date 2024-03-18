@@ -673,7 +673,18 @@
 
 <!-- Custom Scripts -->
 <script src="js/main.js"></script>
-
+<script>
+    window.addEventListener("orientationchange", function() {
+      if (window.orientation === 0 || window.orientation === 180) {
+        alert("Please switch to landscape mode for the best experience.");
+        // You can also force landscape mode programmatically, but it's not recommended.
+        // However, it might work on some devices:
+        // document.documentElement.requestFullscreen();
+        // screen.orientation.lock("landscape");
+      }
+    });
+  </script>
+  
 </body>
 
 </html>
