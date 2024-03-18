@@ -137,11 +137,11 @@
 <div class="container-fluid p-0 position-relative carousel-section">
     <div class="carousel-bottom-shape"></div>
 
-    <!-- Banner Buttons -->
-    <div class="banner-buttons">
-        <a href="tel:+1 334-640-1369" class="btn btn-blue btn-banner1"> Call Us <i class="fa fa-phone"></i></a>
-        <a href="#testimonials" class="btn btn-blue btn-banner2">See What People Say <i class="fa fa-comments"></i></a>
-    </div>
+<!-- Banner Buttons -->
+<div class="banner-buttons">
+    <a href="tel:+1 334-640-1369" class="btn btn-blue btn-banner1" onclick="callUs()"> Call Us <i class="fa fa-phone"></i></a>
+    <a href="#testimonials" class="btn btn-blue btn-banner2" onclick="scrollToTestimonials()">See What People Say <i class="fa fa-comments"></i></a>
+</div>
 
     <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
@@ -681,25 +681,17 @@
   </script>
 
 <script>
-  // JavaScript code to handle button click events
-  document.addEventListener("DOMContentLoaded", function() {
-    // Function to handle click event for Call Us button
-    document.querySelector(".btn-banner1").addEventListener("click", function(event) {
-      // Prevent default behavior (e.g., following the link)
-      event.preventDefault();
-      // Redirect to the phone number link
-      window.location.href = "tel:+1 334-640-1369";
-    });
-
-    // Function to handle click event for See What People Say button
-    document.querySelector(".btn-banner2").addEventListener("click", function(event) {
-      // Prevent default behavior (e.g., following the link)
-      event.preventDefault();
-      // Scroll to the testimonials section
-      document.querySelector("#testimonials").scrollIntoView({ behavior: 'smooth' });
-    });
-  });
-</script>
+    // Function to call the provided phone number
+    function callUs() {
+        window.location.href = "tel:+1 334-640-1369";
+    }
+    
+    // Function to scroll to the testimonials section
+    function scrollToTestimonials() {
+        var testimonialsSection = document.getElementById("testimonials");
+        testimonialsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    </script>
 
   
 </body>

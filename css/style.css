@@ -3103,7 +3103,7 @@ height: 40vh;
     top: 69%;
     left: 0px;
     transform: translateY(-50%);
-    z-index: -1000; /* Add z-index to ensure it appears above other elements */
+    z-index: 1000; /* Add z-index to ensure it appears above other elements */
   }
     /* Center the list and button */
     .carousel-points{
