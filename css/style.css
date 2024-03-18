@@ -2939,6 +2939,13 @@ height: 40vh;
     margin-top: -340px; /* Adjust the top margin as needed */
     margin-bottom: 20px;
   }
+  
+  .feature-img{
+    height: 300px;
+    width: 700px;
+    object-fit: cover;
+  }
+
   .btn-carousel {
     margin-top: .5em;
     padding: 1em 2.75em;
@@ -2993,6 +3000,13 @@ height: 40vh;
   margin-top: 5.5em;
 
   }
+  
+  .feature-img{
+    height: 300px;
+    width: 700px;
+    object-fit: cover;
+  }
+
   .carousel-section{
     margin-bottom: -18em;
   }
@@ -3040,6 +3054,13 @@ height: 40vh;
         transform: translateY(-50%);
         z-index: 1000; /* Add z-index to ensure it appears above other elements */
       }
+
+      .feature-img{
+        height: 300px;
+        width: 700px;
+        object-fit: cover;
+      }
+  
 }
 
 @media (max-width: 375px) {
@@ -3074,6 +3095,11 @@ height: 40vh;
       text-align: center;
       font-size: 1.15em;
       width: 300%;
+    }
+    .feature-img{
+      height: 300px;
+      width: 700px;
+      object-fit: cover;
     }
 
 }
@@ -3110,6 +3136,11 @@ height: 40vh;
       text-align: center;
       font-size: 1.15em;
       width: 300%;
+    }
+    .feature-img{
+      height: 350px;
+      width: 700px;
+      object-fit: cover;
     }
 }
 /* Tablets (landscape) */
