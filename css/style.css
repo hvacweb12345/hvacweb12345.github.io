@@ -880,7 +880,16 @@ color: #e6e6e6;
         width: 100%;
     }
 
-
+    .page-header {
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../img/carousel-2.jpg) center center no-repeat;
+      background-size: cover;
+  }
+  
 
     .text-container {
         position: absolute;
@@ -1507,7 +1516,7 @@ background-color: #fff;
     }
   
     .about-img{
-      background-image: url(../img/about-image-info.jpeg);
+      background-image: url(../img/about-page.jpg);
       background-size: cover;
       width: 90%;
       margin-left: 5%;
@@ -2018,7 +2027,7 @@ background-color: #fff;
 }
 
 
-.testimonial-pattern-overlay.pattern-right {
+.testimonials-pattern-overlay.pattern-right {
   top: 35%;
   right: 0px;
   }
@@ -2957,6 +2966,14 @@ height: 40vh;
       font-size: 1.3em;
       width: 300%;
     }
+    .testimonial-pattern-overlay.pattern-left {
+      top: 29%;
+      left: 0px;
+      }
+      .testimonial-pattern-overlay.pattern-right {
+      top: 42%;
+      left: 0px;
+      }
 }
 
 @media (max-width: 414px) {
