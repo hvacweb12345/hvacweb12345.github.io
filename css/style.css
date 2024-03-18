@@ -2506,6 +2506,7 @@ section#cta {
   padding-right: 50px; /* Add padding to accommodate the icon */
   position: relative;
   
+  
 }
 .btn-banner2 {
   display: block;
@@ -2513,6 +2514,7 @@ section#cta {
   padding-left: 75px; /* Add padding to accommodate the icon */
   padding-right: 15px; /* Add padding to accommodate the icon */
   position: relative;
+  
 }
 
 .btn-banner1 i {
@@ -2526,6 +2528,7 @@ section#cta {
 .btn-banner1:after {
   content: '';
   position: absolute;
+  
   top: 0;
   bottom: 0;
   width: 30px; /* Adjust width for curved edges */
@@ -2567,6 +2570,10 @@ section#cta {
 .btn-blue{
   background-color: #223A68;
   color: #fff;
+  font-family: "Kanit", sans-serif;
+text-transform: capitalize;
+font-weight: 400;
+font-size: 1.1em;
 }
 
 
@@ -2603,22 +2610,209 @@ color: #fff;
 
 
 /* Desktop View */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+
   .carousel-img {
     background-image: url('../img/carousel-6.png'); /* Adjust the path as needed */
     background-size: cover;
 width: 100%;
-height: 80vh;
+height: 90vh;
     background-position: center;
   }
-
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 30px 0px 0px 0;
+    color: #223A68;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    }
+    
   .carousel-points{
     width: 34em;
     position: absolute;
-    left: 37%;
-    top: 52%;
+    left: -16%;
+    top: -532%;
+    font-size: 1.222em;
     z-index: 1000;
+    text-align: left;
   }
+  .carousel-logo {
+    width: 48%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -940px; /* Adjust the top margin as needed */
+    margin-bottom: 20px ;
+    margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-40%); /* Adjust to horizontally center the logo */
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 2.75em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: -14.5em;
+  margin-left: -53%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to horizontally center the logo */
+  }
+  .carousel-section{
+    margin-bottom: 7em;
+  }
+  .banner-buttons {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
+    width: 28%;
+    font-family: "Kanit", sans-serif;
+  
+}
+.logo{
+  width: 7em;
+  margin-left: 0em;
+}
+}
+
+/* Laptops and Desktops */
+@media (min-width: 1025px) {
+
+  .carousel-img {
+    background-image: url('../img/carousel-6.png'); /* Adjust the path as needed */
+    background-size: cover;
+width: 100%;
+height: 90vh;
+    background-position: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 30px 0px 0px 0;
+    color: #223A68;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    }
+    
+  .carousel-points{
+    width: 34em;
+    position: absolute;
+    left: -16%;
+    top: -567%;
+    font-size: 1.272em;
+    z-index: 1000;
+    text-align: left;
+  }
+  .carousel-logo {
+    width: 48%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -990px; /* Adjust the top margin as needed */
+    margin-bottom: 20px ;
+    margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-40%); /* Adjust to horizontally center the logo */
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 2.75em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: -16em;
+  margin-left: -53%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to horizontally center the logo */
+  }
+  .carousel-section{
+    margin-bottom: 7em;
+  }
+  .banner-buttons {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
+    width: 28%;
+    font-family: "Kanit", sans-serif;
+  
+}
+.logo{
+  width: 8em;
+  margin-left: 0em;
+}
+}
+/* Laptops and Desktops */
+@media (min-width: 1225px) {
+
+  .carousel-img {
+    background-image: url('../img/carousel-6.png'); /* Adjust the path as needed */
+    background-size: cover;
+width: 100%;
+height: 90vh;
+    background-position: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 30px 0px 0px 0;
+    color: #223A68;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    }
+    
+  .carousel-points{
+    width: 34em;
+    position: absolute;
+    left: -16%;
+    top: -567%;
+    font-size: 1.272em;
+    z-index: 1000;
+    text-align: left;
+  }
+  .carousel-logo {
+    width: 48%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -990px; /* Adjust the top margin as needed */
+    margin-bottom: 20px ;
+    margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-40%); /* Adjust to horizontally center the logo */
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 2.75em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: -16em;
+  margin-left: -53%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to horizontally center the logo */
+  }
+  .carousel-section{
+    margin-bottom: 7em;
+  }
+  .banner-buttons {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
+    width: 28%;
+    font-family: "Kanit", sans-serif;
+  
+}
+.logo{
+  width: 8em;
+  margin-left: 0em;
+}
 }
 
 /* Mobile View CSS */
