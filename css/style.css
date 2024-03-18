@@ -260,7 +260,7 @@ color: #C2AA4A;
 /*---- testimonial section style start ----*/
 .commercial-services{
     margin-bottom: 4em;}
-section#testimonial {
+section#testimonials {
   background: rgb(15,117,189);
   background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
 }
@@ -396,28 +396,8 @@ display: none;
     display: none; /* Add this line to hide the line */
 }
 
- /*** About ***/
- @media (min-width: 992px) {
-  .container.about {
-      max-width: 100% !important;
-  }
 
-  .about-text  {
-      padding-right: calc(((100% - 960px) / 2) + .75rem);
-  }
-}
 
-@media (min-width: 1200px) {
-  .about-text  {
-      padding-right: calc(((100% - 1140px) / 2) + .75rem);
-  }
-}
-
-@media (min-width: 1400px) {
-  .about-text  {
-      padding-right: calc(((100% - 1320px) / 2) + .75rem);
-  }
-}
 
 .btn-colour{
   background: rgb(15,117,189);
@@ -970,11 +950,11 @@ display: none;
   }
 
 /* Custom styles for Testimonial Carousel */
-#testimonialCarousel {
+#testimonialsCarousel {
     max-width: 100%; /* Make sure the carousel is responsive */
 }
 
-#testimonialCarousel img {
+#testimonialsCarousel img {
     width: 100px; /* Ensure images are responsive within the carousel */
 
     height: 100px;
@@ -1030,14 +1010,14 @@ display: none;
 
 
 /* Optional: Style the caption text */
-#testimonialCarousel .carousel-caption {
+#testimonialsCarousel .carousel-caption {
     background-color: rgba(52, 73, 94, 0.7); /* Set a semi-transparent background for the caption */
     color: #ecf0f1; /* Set the text color for the caption */
     padding: 15px;
     border-radius: 10px; /* Optional: Add rounded corners to the caption */
 }
 
-#testimonialCarousel .carousel-caption h5 {
+#testimonialsCarousel .carousel-caption h5 {
     margin-bottom: 0;
 }
 /* Reduce the bottom margin of the container to decrease the gap */
@@ -1051,14 +1031,14 @@ display: none;
 }
 
 /* Ensure the testimonial carousel is responsive on all devices */
-#testimonialCarousel {
+#testimonialsCarousel {
     max-width: 100%;
     margin-bottom: 0; /* Remove any bottom margin to reduce the gap */
 }
 
 /* Optional: Set a maximum height for the carousel on mobile view */
 @media (max-width: 767px) {
-    #testimonialCarousel {
+    #testimonialsCarousel {
         max-height: 400px; /* 
         
         Adjust this value as needed */
