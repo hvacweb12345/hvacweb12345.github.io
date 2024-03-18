@@ -2771,14 +2771,14 @@ height: 90vh;
     width: 34em;
     position: absolute;
     left: -16%;
-    top: -567%;
+    top: -507%;
     font-size: 1.272em;
     z-index: 1000;
     text-align: left;
   }
   .carousel-logo {
     width: 48%; /* Adjust the width for the viewport width of 414px */
-    margin-top: -990px; /* Adjust the top margin as needed */
+    margin-top: -930px; /* Adjust the top margin as needed */
     margin-bottom: 20px ;
     margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
     left: 50%; /* Center the logo horizontally */
@@ -2792,8 +2792,8 @@ height: 90vh;
     color: #fff;
     border: 0px;
     position: absolute;
-  margin-top: -16em;
-  margin-left: -53%; /* Adjust the left margin to position it slightly to the left */
+  margin-top: -13em;
+  margin-left: -56%; /* Adjust the left margin to position it slightly to the left */
     left: 50%; /* Center the logo horizontally */
     transform: translateX(-50%); /* Adjust to horizontally center the logo */
   }
@@ -2802,7 +2802,7 @@ height: 90vh;
   }
   .banner-buttons {
     position: absolute;
-    top: 80%; /* Adjust the top position as needed */
+    top: 87%; /* Adjust the top position as needed */
     right: 20px; /* Adjust the right position as needed */
     z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
     width: 28%;
@@ -2811,6 +2811,74 @@ height: 90vh;
 }
 .logo{
   width: 8em;
+  margin-left: 0em;
+}
+}
+/* Laptops and Desktops */
+@media (min-width: 1599px) {
+
+  .carousel-img {
+    background-image: url('../img/carousel-6.png'); /* Adjust the path as needed */
+    background-size: cover;
+width: 100%;
+height: 90vh;
+    background-position: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 30px 0px 0px 0;
+    color: #223A68;
+    font-size: 22px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    }
+
+  .carousel-points{
+    width: 34em;
+    position: absolute;
+    left: -16%;
+    top: -550%;
+    font-size: 1.52em;
+    z-index: 1000;
+    text-align: left;
+  }
+  .carousel-logo {
+    width: 48%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -1050px; /* Adjust the top margin as needed */
+    margin-bottom: 20px ;
+    margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-40%); /* Adjust to horizontally center the logo */
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 3.75em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: -14em;
+  margin-left: -58%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to horizontally center the logo */
+  }
+  .carousel-section{
+    margin-bottom: 7em;
+  }
+  .banner-buttons {
+    position: absolute;
+    top: 87%; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
+    width: 18%;
+    font-family: "Kanit", sans-serif;
+  
+}
+.logo{
+  width: 8.85em;
   margin-left: 0em;
 }
 }
@@ -2938,6 +3006,9 @@ height: 40vh;
     transform: translateY(-50%);
     z-index: -1000; /* Add z-index to ensure it appears above other elements */
   }
+  .appointment {
+    height: 170vh;
+    }
 }
 
 @media (max-width: 394px) {
@@ -3007,6 +3078,7 @@ height: 40vh;
       font-size: 1.15em;
       width: 300%;
     }
+
 }
 
 @media (max-width: 360px) {
@@ -3041,5 +3113,108 @@ height: 40vh;
       text-align: center;
       font-size: 1.15em;
       width: 300%;
+    }
+}
+/* Tablets (landscape) */
+@media (min-width: 1366px) and (max-width: 1366px) and (min-height: 1024px) and (max-height: 1024px) {
+  .carousel-img {
+    background-image: url('../img/carousel-6.png'); /* Adjust the path as needed */
+    background-size: cover;
+width: 100%;
+height: 90vh;
+    background-position: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-right: 35px;
+    padding: 30px 0px 0px 0;
+    color: #223A68;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    }
+    
+  .carousel-points{
+    width: 34em;
+    position: absolute;
+    left: -16%;
+    top: -697%;
+    font-size: 1.272em;
+    z-index: 1000;
+    text-align: left;
+  }
+  .carousel-logo {
+    width: 48%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -1190px; /* Adjust the top margin as needed */
+    margin-bottom: 20px ;
+    margin-left:  -50%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-40%); /* Adjust to horizontally center the logo */
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 2.75em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: -20em;
+  margin-left: -56%; /* Adjust the left margin to position it slightly to the left */
+    left: 50%; /* Center the logo horizontally */
+    transform: translateX(-50%); /* Adjust to horizontally center the logo */
+  }
+  .carousel-section{
+    margin-bottom: 7em;
+  }
+  .banner-buttons {
+    position: absolute;
+    top: 80%; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    z-index: 11000; /* Increase the z-index to ensure it appears above other elements */
+    width: 28%;
+    font-family: "Kanit", sans-serif;
+  
+}
+.logo{
+  width: 8em;
+  margin-left: 0em;
+}
+}
+@media (max-width: 290px) {
+  .carousel-logo {
+    width: 115%; /* Adjust the width for the viewport width of 414px */
+    margin-top: -203px; /* Adjust the top margin as needed */
+    margin-bottom: 20px;
+  }
+  .btn-carousel {
+    margin-top: .5em;
+    padding: 1em 2em;
+    background: rgb(15,117,189);
+    background: linear-gradient(90deg, rgba(15,117,189,1) 12%, rgba(29,87,167,1) 100%);
+    color: #fff;
+    border: 0px;
+    position: absolute;
+  margin-top: 4.75em;
+
+  }
+  .carousel-section{
+    margin-bottom: -19em;
+  }
+  .banner-buttons {
+display: none;
+  }
+    /* Center the list and button */
+    .carousel-points{
+      text-align: center;
+      font-size: .9em;
+      width: 300%;
+    }
+    .logo{
+      width: 5em;
+    }
+    .appointment{
+      height: 210vh;
     }
 }
