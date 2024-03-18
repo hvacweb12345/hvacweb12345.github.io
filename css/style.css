@@ -2929,7 +2929,7 @@ height: 40vh;
   top: 70%;
   left: 0px;
   transform: translateY(-50%);
-  z-index: -1000; /* Add z-index to ensure it appears above other elements */
+  z-index: 1000; /* Add z-index to ensure it appears above other elements */
 }
 }
 /* Media queries for different viewport widths */
@@ -2958,7 +2958,7 @@ height: 40vh;
     top: 63%;
     left: 0px;
     transform: translateY(-50%);
-    z-index: -1000; /* Add z-index to ensure it appears above other elements */
+    z-index: 1000; /* Add z-index to ensure it appears above other elements */
   }
     /* Center the list and button */
     .carousel-points{
@@ -3001,7 +3001,7 @@ height: 40vh;
     top: 66%;
     left: 0px;
     transform: translateY(-50%);
-    z-index: -1000; /* Add z-index to ensure it appears above other elements */
+    z-index: 1000; /* Add z-index to ensure it appears above other elements */
   }
   .appointment {
     height: 170vh;
@@ -3038,7 +3038,7 @@ height: 40vh;
         top: 62%;
         left: 0px;
         transform: translateY(-50%);
-        z-index: -1000; /* Add z-index to ensure it appears above other elements */
+        z-index: 1000; /* Add z-index to ensure it appears above other elements */
       }
 }
 
@@ -3067,7 +3067,7 @@ height: 40vh;
     top: 74%;
     left: 0px;
     transform: translateY(-50%);
-    z-index: -1000; /* Add z-index to ensure it appears above other elements */
+    z-index: 1000; /* Add z-index to ensure it appears above other elements */
   }
     /* Center the list and button */
     .carousel-points{
