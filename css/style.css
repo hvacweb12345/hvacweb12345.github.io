@@ -1540,7 +1540,9 @@ background-color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight:  700;
   }
-
+   li::marker {
+    color: #1B3B63; /* Change the color of the bullet points */
+  }
   .phone-button-padding{
     padding-top: .9em;
   }
