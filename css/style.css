@@ -2935,7 +2935,7 @@ height: 40vh;
 }
 }
 /* Media queries for different viewport widths */
-@media (max-width: 490px) {
+@media (max-width: 575px) {
   .carousel-logo {
     width: 115%; /* Adjust the width for the viewport width of 414px */
     margin-top: -340px; /* Adjust the top margin as needed */
