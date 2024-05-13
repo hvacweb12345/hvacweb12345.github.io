@@ -148,7 +148,7 @@ font-weight: 600
   color: #ffffff;
 }
 .btn-colour:hover{
-  background-color: #3b3e3f;
+  background-color: #112c25;
   color: #ececec;
 }
 .back-to-top {
@@ -5206,4 +5206,9 @@ margin-left: 5em ;}
 }
 .colour-body{
   color: #8D9297;
+  
+}
+.colour-body:hover{
+  color: #8D9297;
+
 }
