@@ -1045,9 +1045,6 @@ background-position: top;
   /*----------------------------------------------------------------
 #contact
 -----------------------------------------------------------------*/
-.contact-btn{
-  margin-top: 1.5em;
-}
 
 /*--------------------------------------------------------------
 # Blog Posts List
@@ -5197,4 +5194,13 @@ margin-left: 5em ;}
   .mt-15{
     margin-top: 5em;
   }
+}
+.ml-20{
+  margin-left: 1.75em;
+}
+.contact-btn{
+  margin-top: .75em;
+}
+.p-511{
+  padding: 5em 2em;
 }
