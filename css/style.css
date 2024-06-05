@@ -3610,7 +3610,7 @@ color: #020202;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 450 !important;
       font-style: normal;
-      color: #ffffff;
+      color: #ffffff; 
       font-size: 3em !important;
   }
   .navbar .navbar-brand {
@@ -8686,7 +8686,7 @@ display: none;
         width: 100% !important;
         margin-top: 15% !important;
         text-align: left;
-        margin-left: 8em;
+        margin-left: 13em !important;
       margin-right: 1em !important;
       }
 
@@ -9632,7 +9632,7 @@ background-size: contain !important;  }
 
   }
   .logo{
-    width: 8.5em;
+    width: 9em;
     margin-left: .51em;
   }
  
@@ -9660,7 +9660,7 @@ background-size: contain !important;  }
 .clipping-mask {
     position: absolute;
     top: -42%;
-    left: -73.5%;
+    left: -48%;
     margin-left: 20em !important;
     width: 50%; /* Adjust as needed */
     height: 100%;
@@ -9672,7 +9672,7 @@ background-size: contain !important;  }
 .navbar-brand {
     position: relative; /* Ensure logo is above clipping mask */
     z-index: 2; /* Ensure logo is above the clipping mask */
-    padding-left: 0em;
+    padding-left: 1em;
 }
 
   .clipping-mask2 {
@@ -9680,7 +9680,7 @@ background-size: contain !important;  }
     top: -42%;
     left: -10%;
     margin-right:  2em !important;
-    width: 102%; /* Adjust as needed */
+    width: 108%; /* Adjust as needed */
     height: 100%;
     clip-path: polygon(0% 25%, 100% 25.75%, 100% 75%, 0% 74.75%);
     background-color: #ffffff;
@@ -10603,7 +10603,7 @@ z-index: -1; /* Ensure it is behind the image */
     border-bottom: 5px solid #75BDD0; /* Adjust the thickness and color as needed */
   }
   .carousel-item{
-    height: 90vh;
+    height: 100vh;
   }
   .body-text{
     width: 170% !important;
@@ -10626,8 +10626,8 @@ background-size: contain !important;  }
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 26em;
-    top: 1% !important;
+    width: 28em;
+    top: 12% !important;
     margin-right: -5em !important;
   }
   
@@ -10726,10 +10726,10 @@ width: 80%;
   }
 
 
-.clipping-mask {
+  .clipping-mask {
     position: absolute;
     top: -42%;
-    left: -41% !important;
+    left: -37%;
     margin-left: 20em !important;
     width: 50%; /* Adjust as needed */
     height: 100%;
@@ -10743,15 +10743,19 @@ width: 80%;
   .clipping-mask2 {
     position: absolute;
     top: -42%;
-    left: -10%;
+    left: -5%;
     margin-right:  2em !important;
-    width: 118%; /* Adjust as needed */
+    width: 114%; /* Adjust as needed */
     height: 100%;
     clip-path: polygon(0% 25%, 100% 25.75%, 100% 75%, 0% 74.75%);
     background-color: #ffffff;
     z-index: 1;
 }
-
+.navbar-brand {
+  position: relative; /* Ensure logo is above clipping mask */
+  z-index: 2; /* Ensure logo is above the clipping mask */
+  padding-left: 1em;
+}
 .btn-nav{
   background-color: #ffffff;
   border-radius: 5em;
@@ -11146,7 +11150,7 @@ z-index: -1; /* Ensure it is behind the image */
     border-bottom: 9px solid #75BDD0; /* Adjust the thickness and color as needed */
   }
   .carousel-item{
-    height: 85vh !important;
+    height: 87vh !important;
   }
   .image-overlay {
     position: absolute;
@@ -11253,7 +11257,7 @@ background-size: contain !important;  }
     color: #fff;
     font-size: 4.32em;
     width: 185%;
-
+    margin-top: 1.7em;
   }
   .logo{
     width: 9.5em;
@@ -11691,7 +11695,7 @@ z-index: -1; /* Ensure it is behind the image */
     border-bottom: 8px solid #75BDD0; /* Adjust the thickness and color as needed */
   }
   .carousel-item{
-    height: 89vh !important;
+    height: 93vh !important;
   }
   .image-overlay {
     position: absolute;
@@ -12242,14 +12246,14 @@ z-index: -1; /* Ensure it is behind the image */
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 32em;
-    top: 10% !important;
-    margin-right: -5em !important;
+    width: 33em;
+    top: 9% !important;
+    margin-right: 2em !important;
   }
   
   .overlay-image {
     max-width: 100%;
-    margin-right: -5em !important;
+    margin-right: 2em !important;
 
     height: auto;
     margin-top: 10em;
@@ -12259,7 +12263,7 @@ z-index: -1; /* Ensure it is behind the image */
     width: 30% !important;
     margin-top: 10% !important;
     text-align: left;
-    margin-left: -10em;
+    margin-left: -15em;
   margin-right: 1em !important;
   }
   .btn-carousel {
@@ -12795,7 +12799,7 @@ z-index: -1; /* Ensure it is behind the image */
   
   .overlay-image {
     max-width: 100%;
-    margin-right: -5em !important;
+    margin-right: 3em !important;
 
     height: auto;
     margin-top: 10em;
@@ -12805,7 +12809,7 @@ z-index: -1; /* Ensure it is behind the image */
     width: 30% !important;
     margin-top: 10% !important;
     text-align: left;
-    margin-left: -10em;
+    margin-left: -18em !important;
   margin-right: 1em !important;
   }
   .btn-carousel {
@@ -13342,7 +13346,7 @@ z-index: -1; /* Ensure it is behind the image */
   
   .overlay-image {
     max-width: 100%;
-    margin-right: -5em !important;
+    margin-right: 3em !important;
 
     height: auto;
     margin-top: 10em;
@@ -13352,7 +13356,7 @@ z-index: -1; /* Ensure it is behind the image */
     width: 30% !important;
     margin-top: 10% !important;
     text-align: left;
-    margin-left: -10em;
+    margin-left: -20em;
   margin-right: 1em !important;
   }
   .btn-carousel {
@@ -14641,7 +14645,7 @@ background-size: contain !important;  }
     top: -42%;
     left: -8%;
     margin-right:  2em !important;
-    width: 102%; /* Adjust as needed */
+    width: 111%; /* Adjust as needed */
     height: 100%;
     clip-path: polygon(0% 25%, 100% 25.75%, 100% 75%, 0% 74.75%);
     background-color: #ffffff;
