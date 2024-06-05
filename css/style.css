@@ -8549,7 +8549,7 @@ background-size: contain !important;  }
     color: #fff;
     font-size: 3.92em;
     width: 185%;
-
+    margin-top: .75em !important;
   }
   .logo{
     width: 7.5em;
@@ -8983,14 +8983,14 @@ z-index: -1; /* Ensure it is behind the image */
     border-bottom: 5px solid #75BDD0; /* Adjust the thickness and color as needed */
   }
   .carousel-item{
-    height: 100vh;
+    height: 87vh;
   }
   .image-overlay {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 22em;
-    top: 13% !important;
+    width: 23em;
+    top: 10% !important;
     margin-right: -7em !important;
   }
   
@@ -8999,7 +8999,7 @@ z-index: -1; /* Ensure it is behind the image */
     margin-right: -7em !important;
 
     height: auto;
-    margin-top: 10em;
+    margin-top: 8em;
   }
 
   .text-container{
@@ -9076,7 +9076,7 @@ width: 80%;
 }
 
   .body-text{
-    width: 175%;
+    width: 165%;
 
     font-size: 1em;
   }
@@ -9090,7 +9090,7 @@ background-size: contain !important;  }
     color: #fff;
     font-size: 3.92em;
     width: 185%;
-
+margin-top: 1em !important;
   }
   .logo{
     width: 8.5em;
@@ -10059,26 +10059,41 @@ z-index: -1; /* Ensure it is behind the image */
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 26em;
-    top: 13% !important;
-    margin-right: -5em !important;
+    width: 27em;
+    top: 8% !important;
+    margin-right: -6em !important;
   }
   
   .overlay-image {
     max-width: 100%;
-    margin-right: -5em !important;
+    margin-right: -7em !important;
 
     height: auto;
-    margin-top: 10em;
+    margin-top: 7em;
   }
 
   .text-container{
     width: 30% !important;
     margin-top: 10% !important;
     text-align: left;
-    margin-left: -1em !important;
+    margin-left: -3em !important;
   margin-right: 1em !important;
   }
+
+  .header-text{
+    font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+    font-style: normal;
+    color: #fff;
+    font-size: 3.99em;
+    width: 185%;
+    margin-top: 1em;
+  }
+  .body-text{
+    width: 185%;
+
+    font-size: 1.081em;
+  } 
   .btn-carousel {
     position: relative;
     background-color: #fff;
@@ -10145,23 +10160,11 @@ width: 80%;
     display: inline-block;
 }
 
-  .body-text{
-    width: 185%;
 
-    font-size: 1.1em;
-  }
   .carousel-img{
     height: 100%;
 background-size: contain !important;  }
-  .header-text{
-    font-family: "Bebas Neue", sans-serif !important;
-  font-weight: 400 !important;
-    font-style: normal;
-    color: #fff;
-    font-size: 3.92em;
-    width: 185%;
 
-  }
   .logo{
     width: 8.5em;
     margin-left: .51em;
