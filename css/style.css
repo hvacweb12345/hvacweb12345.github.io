@@ -2835,7 +2835,14 @@ font-size: 4.3em;
 
 /* Media query for screens between 300px and 385px */
 @media (min-width: 370px) and (max-width: 385px) {
-
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
   .appointment{
     background: linear-gradient(90deg, rgba(7,31,52,1) 0%, rgba(5,62,102,0.8491771708683473) 34%, rgba(0,156,255,0.11528361344537819) 100%), 
                 url(../img/appointment.jpg) left center no-repeat;    background-size: cover;
@@ -3071,7 +3078,7 @@ font-size: 2.1em;
   }
 
   .logo {
-    width: 7.3em;
+    width: 6.8em;
     margin-left: 0.4em;
     margin-bottom: .135em;
   }
@@ -3599,7 +3606,14 @@ color: #020202;
 /* Media query for screens between 300px and 385px */
 @media (min-width: 100px) and (max-width: 370px) {
 
-  
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
   .appointment{
     background: linear-gradient(90deg, rgba(7,31,52,1) 0%, rgba(5,62,102,0.8491771708683473) 34%, rgba(0,156,255,0.11528361344537819) 100%), 
                 url(../img/appointment.jpg) left center no-repeat;    background-size: cover;
@@ -4362,6 +4376,15 @@ color: #020202;
   }
 /* Media query for screens between 300px and 385px */
 @media (min-width: 385px) and (max-width: 410px) {
+
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
   .plr{
     padding: 0em 1.3em;
   }
@@ -5126,7 +5149,14 @@ color: #020202;
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 410px) and (max-width: 425px) {
-
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
 
   .plr{
     padding: 0em 1.3em;
@@ -6709,6 +6739,15 @@ color: #020202;
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 700px) and (max-width: 800px) {
+
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
   .font-type-projects-page{
     font-family: "Bebas Neue", sans-serif !important;
     font-weight: 400 !important;
@@ -7509,6 +7548,15 @@ padding: 0em 0em !important;
   }
 /* Media query for screens between 410px and 425 */
 @media (min-width: 800px) and (max-width: 990px) {
+
+  .navbar .navbar-brand {
+    position: relative;
+    padding-right: 30px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    }
   .hvac::after {
     content: "";
     position: absolute;
@@ -10670,7 +10718,7 @@ background-size: contain !important;  }
 .clipping-mask {
     position: absolute;
     top: -42%;
-    left: -31%;
+    left: -41% !important;
     margin-left: 20em !important;
     width: 50%; /* Adjust as needed */
     height: 100%;
