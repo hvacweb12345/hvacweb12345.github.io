@@ -10597,14 +10597,31 @@ z-index: -1; /* Ensure it is behind the image */
     border-bottom: 5px solid #75BDD0; /* Adjust the thickness and color as needed */
   }
   .carousel-item{
-    height: 100vh;
+    height: 90vh;
+  }
+  .body-text{
+    width: 170% !important;
+
+    font-size: 1.075em;
+  }
+  .carousel-img{
+    height: 100%;
+background-size: contain !important;  }
+  .header-text{
+    font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+    font-style: normal;
+    color: #fff;
+    font-size: 4.24em !important;
+    width: 185%;
+    margin-top: 1.35em;
   }
   .image-overlay {
     position: absolute;
     bottom: 0;
     right: 0;
     width: 26em;
-    top: 13% !important;
+    top: 1% !important;
     margin-right: -5em !important;
   }
   
@@ -10613,7 +10630,7 @@ z-index: -1; /* Ensure it is behind the image */
     margin-right: -5em !important;
 
     height: auto;
-    margin-top: 10em;
+    margin-top: 9em !important;
   }
 
   .text-container{
@@ -10689,23 +10706,7 @@ width: 80%;
     display: inline-block;
 }
 
-  .body-text{
-    width: 185%;
 
-    font-size: 1.05em;
-  }
-  .carousel-img{
-    height: 100%;
-background-size: contain !important;  }
-  .header-text{
-    font-family: "Bebas Neue", sans-serif !important;
-  font-weight: 400 !important;
-    font-style: normal;
-    color: #fff;
-    font-size: 3.92em;
-    width: 185%;
-
-  }
   .logo{
     width: 9em;
     margin-left: .51em;
