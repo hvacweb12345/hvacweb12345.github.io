@@ -72,7 +72,7 @@ height: 850px;
 }
 
 .text-colour1{
-  color: #bdbdbd;
+  color: #75BDD0;
   font-family: 'Orbitron', sans-serif;
 }
 .text-colour6{
@@ -121,7 +121,7 @@ font-weight: 600
   color: #fff;
 }
 .btn-colour:hover{
-  background-color: #797979;
+  background-color: #75BDD0;
   color: #ececec;
 }
 .btn-colour3{
@@ -201,7 +201,7 @@ letter-spacing: 1px;
 
 /* Define the background color when a dropdown item is clicked */
 .dropdown-item:active {
-background-color: #231F20; /* New background color when clicked (green in this example) */
+background-color: #0C2237 ; /* New background color when clicked (green in this example) */
 /* You can change this color to the desired color */
 }
 
@@ -2751,13 +2751,14 @@ color: #020202;
     margin-top: -3em;
 }
 .about-page-link:hover{
-  color: #020202;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 800 !important;
+  color: #141414;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400 !important;
     font-style: italic;
     font-size: 2.2em;
     text-decoration: underline;
     cursor: pointer;
+    margin-top: -3em;
 }
 .margin-reverse{
   margin-top: -.7em;
