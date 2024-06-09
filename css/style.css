@@ -13823,159 +13823,170 @@ z-index: -1; /* Ensure it is behind the image */
 
 }
 @media only screen and (min-width: 1920px) and (max-width: 1920px) and (min-height: 1080px) and (max-height: 1080px){
+  .contact-page-h1{
+    font-family: "Bebas Neue", sans-serif !important;
+    font-weight: 400 !important;
+    color: #272727;
+    font-size: 3.9725315em;
+    font-style: normal;
+  }
+  .mt-111{
+    margin-top: .5em;
+  }
+  
+  
+  .hvac::after {
+    content: "";
+    position: absolute;
+    bottom: 4px; /* Adjust the distance between text and underline */
+    left: 0;
+    width: 98%;
+    border-bottom: 8px solid #75BDD0; /* Adjust the thickness and color as needed */
+  }
+  .hvac3::after {
+    content: "";
+    position: absolute;
+    bottom: 4px; /* Adjust the distance between text and underline */
+    left: 0;
+    width: 98%;
+    border-bottom: 8px solid #75BDD0; /* Adjust the thickness and color as needed */
+  }
+
+  .hvac2::after {
+    content: "";
+    position: absolute;
+    bottom: 4px; /* Adjust the distance between text and underline */
+    left: 0;
+    width: 98%;
+    border-bottom: 8px solid #75BDD0; /* Adjust the thickness and color as needed */
+  }
   .carousel-item{
-    height: 80vh;
+    height: 95vh !important;
+  }
+  .image-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 35em;
+    top: 10% !important;
+    margin-right: -5em !important;
   }
   
+  .overlay-image {
+    max-width: 100%;
+    margin-right: 3em !important;
+
+    height: auto;
+    margin-top: 10em;
+  }
+
   .text-container{
-    width: 55%;
-    margin-top: -15% !important;
+    width: 30% !important;
+    margin-top: 10% !important;
     text-align: left;
-    margin-left: -2em;
+    margin-left: -20em;
+  margin-right: 1em !important;
   }
-  .half-width {
-  width: 222px !important;
-  width: calc(50% - 10px); /* Subtracting margin space */
+  .btn-carousel {
+    position: relative;
+    background-color: #fff;
+    color: #020202;
+    margin-top: .5em;
+    font-size: 1.75em;
+    margin-left: .46em;
+    padding: .01em 2.7em !important;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    white-space: nowrap;
+    letter-spacing: .4px;
+    text-decoration: none; /* Ensure link text is not underlined */
+    border: none; /* Remove default button border */
+    display: inline-flex; /* Align items inline */
+    align-items: center; /* Center align items */
+    z-index: 1; /* Ensure this is above the shadow */
+    overflow: hidden;
 }
-.form-header {
-  text-align: center;
-  font-size: 26px;
-  padding-top: .5em;
-  margin: 0 auto 20px;
-  color: #fafafa;
-  width: 100%;
-height: 100px;    
-font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-style: normal;
-z-index: 5 !important;
-position: absolute;
-}
-.form-content{
-  margin-top: 7.5em;
-}
-.arrow-down {
-  position: absolute;
-  margin-top: 2.98em ;
-  left: 0; /* Adjust positioning to start from the left */
-  width: 100%; /* Span the entire width */
-  height: 44px; /* Set the height of the arrow */
-  background-color: #777777; /* Adjust color as needed */
-  clip-path: polygon(0% 0%, 50% 90%, 100% 0%); /* Create arrow shape */
-  z-index: 3; /* Ensure arrow is behind the form header */
-}
-
-.arrow-down-black {
-  position: absolute;
-  margin-top: 2.96em;    
-  left: 0; /* Adjust positioning to start from the left */
-  width: 100%; /* Span the entire width */
-  height: 39px; /* Set the height of the arrow */
-  background-color: #000000; /* Adjust color as needed */
-  clip-path: polygon(4% 0%, 50% 75%, 100% 0%); /* Create arrow shape */
-  z-index: 3; /* Ensure arrow is above the form header */
+  .btn-carousel2 {
+    position: relative;
+    background-color: #fff;
+    color: #020202;
+    margin-top: .75em;
+    font-size: 1.75em;
+    padding: .7em 11em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .4px;
+    text-decoration: none; /* Ensure link text is not underlined */
+    border: none; /* Remove default button border */
+    display: inline-flex; /* Align items inline */
+    align-items: center; /* Center align items */
+    z-index: 1; /* Ensure this is above the shadow */
+    overflow: hidden;
 }
 
+.shadow-btn {
+    position: absolute;
+width: 80%;
 
-.quote-form {
-  max-width: 1000px; /* Adjust the maximum width of the form */
-  margin: 25px; /* Center the form on the page */
-  padding: 0px; /* Adjust padding as needed */
-  background-color: #ffffff; /* Adjust background color if needed */
-  border-radius: 0px; /* Adjust border radius if needed */
-  height: 63%;
-  border-bottom: 10px solid #797979;
-  width: 24%;
-  margin-top: -3% !important;
-  background: rgb(11,11,11);
-  background: linear-gradient(180deg, rgba(11,11,11,1) 5%, rgba(0,0,0,1) 8%, rgba(0,0,0,1) 10%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 25%);}
-  
+    top: -.9rem; /* Slightly higher */
+    right: 3.6rem; /* Slightly to the left */
+    background-color: #53939F;
+    color: #fff;
+    opacity: 1; /* Adjust opacity for shadow effect */
+    z-index: -1; /* Place it behind the actual button */
+    border-radius: inherit; /* Match button's border radius */
+    transform: scale(1.05); /* Slightly increase size for shadow effect */
+    pointer-events: none; /* Make it non-interactive */
+}
+
+.btn-carousel i {
+    transform: rotate(10deg);
+    font-size: 18px;
+    margin-left: 10px; /* Adjust spacing as needed */
+    vertical-align: middle; /* Align icon with text */
+}
+
+.btn-wrapper {
+    position: relative;
+    display: inline-block;
+}
 
   .body-text{
-    font-size: 1.49em;
+    width: 165%;
+
+    font-size: 1.13em;
   }
   .carousel-img{
     height: 100%;
 background-size: contain !important;  }
   .header-text{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
     font-style: normal;
     color: #fff;
-    font-size: 4.95em;
-  }
+    font-size: 5.4em;
+    width: 185%;
 
-  .btn-colour-form{
-    background-color: #231F20;
-    padding: .5em 2.1em;
-    white-space: nowrap;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 600 !important;
-      font-style: normal;
-      color: #fff;
-      font-size: 1.23em;
   }
-  .btn-nav i {
-    transform: rotate(10deg);
-    font-size: 18px;
-    margin-bottom: 3px;  }
-  .btn-nav{
-    background-color: #ffffff;
-    border-radius: 5em;
-    white-space: nowrap;
-    font-size: 23px;
-    color: #231F20;
-    font-family: 'Noto Serif', serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  padding: .4em 2.5em;
-  margin-right: 1em;
-    border: 2px solid #231F20;
-  } 
-  
-  .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
-    padding: 20px 0;
-    color: #231F20;
-    font-size: 30px;
-    font-weight: 500;
-    outline: none;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400 !important;
-    font-style: normal;}
-  
-       .arrow-icon {
-        height: auto;
-        width: 70px;
-        margin-top: -4px;
-          margin-left: 5px; /* Adjust the margin as needed */
-        }
-        .btn-carousel {
-          align-items: center;  /* Vertically centers the content */
-          justify-content: flex-start;  /* Aligns the text to the left */
-          margin-top: .4em;
-          background-color: #797979;
-          color: #fff;
-          font-size: 1.6em;
-          padding: .1em 2.4em;
-          font-family: "Cormorant Garamond", serif;
-          font-weight: 500 !important;
-          letter-spacing: 0.4px;
-          text-align: left;  /* Ensures text alignment to the left */
-          height: auto;  /* Adjust this value if needed to set a specific height */
-          line-height: normal;  /* Resets line-height to default */
-      }
-      
-
-  .logo-container {
-    position: relative;
-    
+  .navbar-brand {
+    position: relative; /* Ensure logo is above clipping mask */
+    z-index: 2; /* Ensure logo is above the clipping mask */
+    padding-left: 1.75em;
 }
+  .btn-nav i {
+  }
+  .logo{
+    width: 10.5em;
+    margin-left: 1em;
+  }
+
 
 .clipping-mask {
     position: absolute;
-    top: -42%;
-    left: -16%;
+    top: -45%;
+    left: -14%;
     margin-left: 20em !important;
     width: 50%; /* Adjust as needed */
     height: 100%;
@@ -13984,56 +13995,78 @@ background-size: contain !important;  }
     z-index: 1;
 }
 
-.navbar-brand {
-    position: relative; /* Ensure logo is above clipping mask */
-    z-index: 2; /* Ensure logo is above the clipping mask */
-    padding-left: 2em;
-}
-.logo{
-  width: 12em;
-  margin-right: 1em;
-}
+
+
   .clipping-mask2 {
     position: absolute;
-    top: -42%;
-    left: -8%;
+    top: -45%;
+    left: -10%;
     margin-right:  2em !important;
-    width: 102%; /* Adjust as needed */
+    width: 118%; /* Adjust as needed */
     height: 100%;
     clip-path: polygon(0% 25%, 100% 25.75%, 100% 75%, 0% 74.75%);
     background-color: #ffffff;
     z-index: 1;
 }
+.navbar .navbar-nav .nav-link {
+  margin-right: 50px;
+  padding: 20px 0;
+  color: #231F20;
+  font-size: 27px;
+  font-weight: 500;
+  outline: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;}
+
+
+.btn-nav{
+  background-color: #ffffff;
+  border-radius: 5em;
+  white-space: nowrap;
+  font-size: 27px;
+  margin-right: 0em;
+  color: #231F20;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;    font-optical-sizing: auto;
+padding: .35em 1.95em;
+  border: 2px solid #231F20;
+}  
+
+.logo-container {
+  position: relative;
+  
+}
 .topbar-text1{
   white-space: nowrap;
-  margin-left: -29em;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600 !important;
-    font-style: normal;
-    font-size: 1.86534em !important;
-}
+  margin-left: -25em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+    font-size: 1.424em !important;}
 
 .topbar-text2{
   white-space: nowrap;
-  margin-left: -22em;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600 !important;
-    font-style: normal;
-    font-size: 1.86534em !important;
+  margin-left: -18em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400 !important;
+  font-style: normal;
+    font-size: 1.424em !important;
 }
 .icon-outline2 {
   -webkit-text-stroke: 1px #fff; /* Outline color and width */
   color: transparent  ; /* Hide the fill color */
-  font-size: 22px; /* Adjust size as needed */
-  margin-right: 10px; /* Space between icon and text */
-  transform: rotate(110deg);
+  font-size: 17px; /* Adjust size as needed */
+  margin-right: 8px; /* Space between icon and text */
+  transform: rotate(100deg);
 
 }
 
 .icon-outline {
   color: transparent  ; /* Hide the fill color */
-  font-size: 28px; /* Adjust size as needed */
-  margin-right: 10px; /* Space between icon and text */
+  font-size: 17px; /* Adjust size as needed */
+  margin-right: 8px; /* Space between icon and text */
   color: #fff;
   border: .5px ;
 }
@@ -14041,18 +14074,28 @@ background-size: contain !important;  }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 33px;
+  height: 33px;
   position: relative;
 }
 
 .icon-container .fab.facebook-icon {
-  font-size: 18px;
+  font-size: 16px;
   color: #fff; /* White icon color */
 }
 
 /* Ensure only the Facebook icon is styled here */
+.topbar-right .fab.facebook-icon {
+  color: #fff;
+  font-size: 16px;
+}
 
+     .arrow-icon {
+      height: auto;
+      width: 60px;
+      margin-top: -1px;
+        margin-left: 5px; /* Adjust the margin as needed */
+      }
 
 
 
@@ -14068,16 +14111,16 @@ background-size: contain !important;  }
 }
 .form-control::placeholder {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 400;  font-size: 18px; /* Change font size as needed */
+  font-weight: 400;  font-size: 15px; /* Change font size as needed */
   color: #999; /* Change placeholder color as needed */
 }
 
 .list-text{
-  color: #020202;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 800 !important;
-    font-style: italic;
-    font-size: 1.6536em;
+  color: #272727;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+    font-size: 1.65346em;
 }
 .list-text-about{
   color: #020202;
@@ -14087,16 +14130,19 @@ background-size: contain !important;  }
     font-size: 1.54em;
 }
 .about-img-container {
+  margin-left: 2em;
   position: relative;
 }
 
 .about-img-container .shadow-box {
   position: absolute;
-  top: -20px; /* Adjust the position as needed */
-  left: 88px; /* Adjust the position as needed */
+  margin-left: 3em;
+  overflow: visible !important;
+  top: -30px; /* Adjust the position as needed */
+  left: -2px; /* Adjust the position as needed */
   width: 60%; /* Adjust the size as needed */
   height: 95%; /* Adjust the size as needed */
-  background-color: #1E1E1E; /* Black color */
+  background-color: #0C2237; /* Black color */
   z-index: -1; /* Ensure it is behind the image */
 }
  .shadow-box-contact {
@@ -14110,197 +14156,57 @@ background-size: contain !important;  }
 }
 
 .about-img-home{
-  height: 610px;
+  height: 640px;
   background-size: cover !important;
-margin-left: 7em ;}
+margin-left: 5em ;
+margin-right: 2em;
+}
 
 .service{
   margin-top: 4em;
 }
 .font-future-about-section{
-  color: #020202;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600 !important;
-    font-style: normal;
-  font-size: 2.975em;
+  color: #272727;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 4.2em;
   }
   .body-text-dark{
-    font-family: "Sedan", serif;
+    font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 400;     
-    font-size: 1.1em;
+    font-size: 1em;
     color: #020202;
   }
-  .review {
-    padding-right: 1em;
-}
-.testimonial-section .review {
-  margin-top: 1.5em;
-}
+  .font-type-projects-page{
+    font-family: "Bebas Neue", sans-serif !important;
+    font-weight: 400 !important;
+      font-style: normal;
+      font-size: 3.9725315em;
+      letter-spacing: 1.2px !important;
+      color: #272727;
+      margin-top: -.25em;
+  }
 
-.testimonial-section h5 {
-  margin-left: -.45em;  
-  font-family: "Kanit", sans-serif;
-  font-weight: 500;
-  color: #0e0d0d;
-  white-space: nowrap;
-  font-style: italic;
-  font-size: 1.1em;
-  margin-top: .32em;
-}
-
-.star {
-  margin-left: -.37em;
-}
-
-.testimonial-top {
-  text-align: center;
-}
-
-.testimonial-top p {
-  text-align: center;
-  margin-bottom: 3em;
-  color: #000;
-  font-weight: 500;
-  font-size: 1.2em;
-}
-
-.testimonial-top img {
-  width: 9em;
-}
-
-.testimonial-content {
-  position: relative;
-  background: #ffffff;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-  margin: 10px; /* Add margin for spacing between slides */
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.testimonial-content::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -10px;
-  width: calc(100% + 20px);
-  height: 10px;
-  box-shadow: 0px -12px 20px rgba(0, 0, 0, 0.15);
-}
-
-.testimonial-content::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: -10px;
-  width: calc(100% + 20px);
-  height: 10px;
-  box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.15);
-}
-
-iconify-icon.rate {
-  color: #F2B821;
-}
-
-
-.swiper-pagination {
-position: absolute;
-bottom: -70px !important; /* Adjust the distance from the bottom as needed */
-left: 0;
-width: 100%;
-text-align: center;
-}
-.swiper-pagination .swiper-pagination-bullet {
-  background-color: #2e2d2d;
-}
-
-.swiper {
-  overflow: visible !important;
-}
-
-.review-scroll {
-  max-height: 200px;
-  overflow-y: auto;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #797979;
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-
-
-.google-logo{
-width: 3.21em !important;
-}
-.testimonial-paragraph-header-text{
-white-space: nowrap;
-margin-left: 0em;
-font-family: "Sedan", serif;
-font-weight: 400 !important;
-  font-style: normal;
-  margin-top: -1em;
-  color: #020202;
-  font-size: 1.7em !important;
-}
-iconify-icon.rate2 {
-color: #F2B821;
-font-size: 20px;  
-width: 15px;
-}
-.star-margin-2{
-margin-right: .5em;
-
-}
-.star-margin-1{
-margin-left: .3em;
-
-}
-.font-future-testimonial{
-font-family: "Cormorant Garamond", serif;
-font-weight: 600 !important;
-color: #020202;
-}
-.user{
-  width: 2.7em;
-}
-.testimonial-content .google-icon {
-  position: absolute;
-  top: 35px; /* Adjust as needed */
-  right: 36px; /* Adjust as needed */
-  width: 20px; /* Adjust as needed */
-  height: auto;
-}
 .p-5{
   padding: 2em 1.6em !important;
 }
 .appointment {
-  background: linear-gradient(to right, rgba(3, 3, 3, 0.692), rgba(0, 0, 0, .63)), url(../img/appointment.jpg) left center no-repeat;
-  background-size: cover;
-  height: 45vh;
+  background: linear-gradient(90deg, rgba(7,31,52,1) 0%, rgba(5,62,102,0.8491771708683473) 34%, rgba(0,156,255,0.11528361344537819) 100%), 
+  url(../img/appointment.jpg) left center no-repeat;    background-size: cover;    background-size: cover;
+  height: 60vh;
   margin-bottom: 7em !important;
 }
     
 
-
 .appointment p{
-  font-size: .9em;
+  font-size: .91em;
 }
 .about-img{
   background-image: url(../img/about-page-image.jpg);
   background-size: cover;
-  height: 65vh;
+  height: 785px;
 background-position: top;
 }
 .about-page-link{
@@ -14330,16 +14236,16 @@ background-position: top;
   margin-top: 1em;
 }
 .services-image1{
-  height: 138vh !important;
+  height: 1190px !important;
 }
 .services-image2{
-  height: 102vh !important;
+  height: 1910px !important;
 }
 .services-image3{
-  height: 120vh !important;
+  height: 1600px !important;
 }
 .services-image4{
-  height: 84vh !important;
+  height: 1290px !important;
 }
 .py-15{
   padding-bottom: 8em;
@@ -14364,14 +14270,16 @@ top: -20px; /* Adjust the position as needed */
 left: -20px; /* Adjust the position as needed */
 width: 60%; /* Adjust the size as needed */
 height: 90%; /* Adjust the size as needed */
-background-color: #1E1E1E; /* Black color */
+background-color: #0C2237; /* Black color */
 z-index: -1; /* Ensure it is behind the image */
 }
+
+
 
 .service-page-header3 {
   background: linear-gradient(to right, rgb(35, 31, 32) 0%, rgba(179, 185, 191, 0) 100%), url(../img/carousel-1.jpg) center right no-repeat;
   background-size: cover;
-  height: 360px;
+  height: 300px;
 }
 
 .service-page-header3 .breadcrumb-item+.breadcrumb-item::before {
@@ -14386,56 +14294,78 @@ z-index: -1; /* Ensure it is behind the image */
     font-style: italic;
   color: var(--light);
 }
+.font-type-service{
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+    font-style: normal;
+    font-size: 4.2em;
+    color: #272727;
+}
 
 
 .font-type-service-page-header{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 600 !important;
     font-style: normal;
-    font-size: 4.839em;
-    margin-top: 0.0em;
+    font-size: 4.7em;
+    margin-top: -.2em !important;
 }
 .font-type-service-page-header3{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 600 !important;
     font-style: normal;
-    font-size: 3.39em;
+    font-size: 4.7em;
+    margin-top: -.2em !important;
 }
 .font-type-page-header{
     font-style: normal;
-    font-size: 5.39em;
+    font-size: 5.2em;
+    margin-top: -.0em;
 }
-.form-group i {
-  position: absolute;
-  top: 50%;
-  left: 15px;
-  transform: translateY(-50%);
-  font-size: .7em;
-  color: #73737399; /* Adjust icon color if needed */
-  margin-left: 1em;
-  padding-left: .2em;
+.font-future-about-page{
+  font-size: 3.9725315em;
+}
+.font-type-services{
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+    font-style: normal;
+    font-size: 2.3em !important;
+  color: #272727;
+}
+.service-font-type{
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+    font-style: normal;
+    font-size: 3.9725315em;
+    letter-spacing: 1.2px !important;
+    color: #272727;
+}
+.service-font-type4{
+  font-family: "Bebas Neue", sans-serif !important;
+  font-weight: 400 !important;
+    font-style: normal;
+    font-size: 3.65315em !important;
+    letter-spacing: 1.2px !important;
+    color: #272727;
+}
+.choose-us-header{
+  color: #272727;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  letter-spacing: .7px;
+  font-size: 3.19725315em;
 }
 
-.font-future-testimonial{
-
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 800 !important;
-    letter-spacing: .4px;
-      font-style: normal;
-      font-size: 3.6em;
-    color: #070707;
-  
-
-
-}
-
-.testimonial-content .user-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-  margin-right: 11em;
-}
+.font-type-contact{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400 !important;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 4.2em;
+  }
 }
 @media only screen and (width: 1366px) and (height: 1024px) {
 
